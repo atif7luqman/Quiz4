@@ -1,12 +1,15 @@
-import { useState } from 'react'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from './components/Header';
+import './App.css'
+import Welcome from './components/Welcome';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-      <h1>Hello</h1>
-    </>
+    <div className='main'>
+      <Header />
+      <Welcome />
+    </div>
   )
 }
 
