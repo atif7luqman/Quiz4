@@ -27,6 +27,7 @@ export default function About() {
           <BottomNavigationAction label="Favorites" />
           <BottomNavigationAction label="Nearby" />
         </BottomNavigation>
+        <h1>hello about</h1>
       </div>
     </div>
   );
