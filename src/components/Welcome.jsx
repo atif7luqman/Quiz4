@@ -10,9 +10,11 @@ export default function YourComponent() {
         <Row className='align-items-center justify-content-center'>
           <Col lg={6} className="text-left p-5">
           <p className='fs-1 fw-bold mb-0' style={{
-              backgroundImage: 'linear-gradient(to right, #494AAA, #EB7A65, #D9DEED)',
-              WebkitBackgroundClip: 'text',
+              backgroundImage: 'linear-gradient(to right, #3C3599, #EB7A65, #A9F9E1)',
               color: 'transparent',
+              display: 'inline-block', // Ensure the gradient applies to the entire text
+              WebkitBackgroundClip: 'text', // Use the Webkit version for older browsers
+              textFillColor: 'transparent', // Set the text color to transparent
             }}>
               Brainstorm
             </p>          

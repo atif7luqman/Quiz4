@@ -7,7 +7,7 @@ import Footer from './components/Footer';
 import Publications from './components/Publications';
 import UseCases from './components/UseCases';
 import Benefits from './components/Benefits';
-// import About from './components/About';
+import About from './components/About';
 
 function App() {
 
@@ -18,12 +18,9 @@ function App() {
       <Publications />
       <UseCases />
       <Benefits />
+      <About />
       <ContactUs />
       <Footer />
-       */}
-      {/* <About />
-      
-       */}
     </div>
   )
 }

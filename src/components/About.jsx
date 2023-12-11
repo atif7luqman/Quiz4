@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { Image, BottomNavigation, BottomNavigationAction } from 'react-bootstrap';
+import { Image} from 'react-bootstrap';
+import { BottomNavigation, BottomNavigationAction } from '@mui/material';
 import ab1 from '../assetes/images/ab1.png'; // Corrected the path to the image
 
 export default function About() {
@@ -21,6 +22,8 @@ export default function About() {
           }}
         >
           <BottomNavigationAction label="Recents" />
+          <BottomNavigationAction label="Favorites" />
+          <BottomNavigationAction label="Nearby" />
           <BottomNavigationAction label="Favorites" />
           <BottomNavigationAction label="Nearby" />
         </BottomNavigation>
