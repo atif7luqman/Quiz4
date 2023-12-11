@@ -3,7 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import {Button} from 'react-bootstrap'
-import Logo from '../assetes/images/Logo.png';
+import Logo from '../assetes/images/logo.png';
 import { Image } from 'react-bootstrap';
 
 export default function Header() {
